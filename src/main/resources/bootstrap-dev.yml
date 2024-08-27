@@ -14,7 +14,14 @@ spring:
           clone-on-start: true
           refresh-rate: 10
 #          username: ramirezrr
-#          password: xxxx
+#          password: xxxxx
+          username: '{cipher}ce2543400b0c0a7d1014457ba0755806fcc1fa1832af77a56f7a6dabdc9fd443'
+          password: '{cipher}9a8d8aeafc3cea8d4dd08a2ac5574dfe73d7dbc49b0a6c2c90f277ef7bfa61d6060237efbf6ba571f966be085a4982dfe8b3b71b851d1c2fd19a6bc117d89228'
+#       Para que desde el browser no lo desencripte y no le llegue al cliente
+#        encrypt:
+#          enabled: false
+encrypt:
+  key: keyMitocode
 
 #Eureka client configuration
 eureka:
@@ -26,3 +33,4 @@ eureka:
   instance:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 2
+

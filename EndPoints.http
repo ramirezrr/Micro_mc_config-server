@@ -1,0 +1,8 @@
+### POST to encrypt
+POST http://localhost:9001/encrypt
+Content-Type: application/json
+
+###-----> Los nombres no se ponen comillas
+###ramirezrr
+##ghp_
+###vqJPDvgFYQTuJjf7p3GwWXuN0SzFy82ju3tV
