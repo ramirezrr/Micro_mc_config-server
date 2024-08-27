@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Micro_mc_config-server
+    name: Config-Server
 #Config server configuration
   cloud:
     config:
