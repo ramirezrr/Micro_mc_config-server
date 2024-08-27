@@ -13,8 +13,8 @@ spring:
           default-label: ${CONFIG.SERVER.BRANCH:devMitocode}
           clone-on-start: true
           refresh-rate: 10
-#          username: xxx
-#          password: xxx
+#          username: ramirezrr
+#          password: xxxx
 
 #Eureka client configuration
 eureka:

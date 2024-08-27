@@ -81,6 +81,12 @@ Para que las instancias de Eureka Server se reconozcan entre sí, es necesario e
 ```bash
 mvn spring-boot:run -Dspring-boot.run.arguments="--CONFIG.SERVER.BRACH=devMitocode --spring.profiles.active=dev"
 ```
+# IDEA:
+![img.png](idea-deploy-1.png)
+
+## Generar token
+![img.png](token-git.png)
+
 
 # Getting Started
 
