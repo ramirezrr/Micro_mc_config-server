@@ -10,7 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/ramirezrr/Micro_mc_config-server-repo.git
-          default-label: devMitocode
+          default-label: ${CONFIG.SERVER.BRANCH:devMitocode}
           clone-on-start: true
           refresh-rate: 10
 #          username: xxx

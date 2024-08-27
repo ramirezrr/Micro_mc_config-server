@@ -77,7 +77,10 @@ Para que las instancias de Eureka Server se reconozcan entre sí, es necesario e
 ```bash
 127.0.0.1       discovery1
 ```
-
+## Ejecución con argumentos
+```bash
+mvn spring-boot:run -Dspring-boot.run.arguments="--CONFIG.SERVER.BRACH=devMitocode --spring.profiles.active=dev"
+```
 
 # Getting Started
 
