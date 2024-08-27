@@ -1,5 +1,11 @@
 # Config server Micro_mc_config-server
 
+- **Título**: `Micro_mc_config`
+- **Versión**: `1.0.0`
+- **Autor**: `Rodrigo R.`
+- **Curso**: `Mitocode`
+- **Estado**: `Publico`
+- 
 ## Descripción
 
 Este proyecto es un **Servidor de Configuración** basado en Spring Cloud, diseñado para la gestión centralizada de propiedades de configuración. Utiliza Spring Cloud Config Server para proporcionar una fuente central de configuración para aplicaciones distribuidas.
