@@ -1,0 +1,28 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: Micro_mc_config-server
+#Config server configuration
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ramirezrr/Micro_mc_config-server-repo.git
+          default-label: devMitocode
+          clone-on-start: true
+          refresh-rate: 10
+#          username: xxx
+#          password: xxx
+
+#Eureka client configuration
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://discovery1:8761/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 2
